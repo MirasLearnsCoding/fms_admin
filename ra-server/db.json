@@ -1,9 +1,45 @@
 {
-  "categories": [
+  "user": [
     {
-      "id": 1,
-      "name": "animals"
-    },
+      "id": 2,
+      "email": "bkimadieff@gmail.com",
+      "username": "bkimadieff",
+      "first_name": "Bekzhana",
+      "last_name": "Kimadiyev",
+      "phone_number": "+878733878",
+      "profile_picture_url": "https://example.com/pfp.png",
+      "role": "Farmer"
+    }
+  ],
+  "pending_farmers": [
+    {
+        "id": 1,
+        "status": "pending",
+        "rejection_reason": "",
+        "created_at": "2024-10-30T00:38:14.191109Z",
+        "farmer": {
+            "id": 2,
+            "first_name": "Bekzhan",
+            "last_name": "Kimadiyev",
+            "username": "bkimadieff",
+            "email": "bkimadieff@gmail.com",
+            "phone_number": "+878733878",
+            "profile_picture_url": "https://example.com/pfp.png",
+            "role": "Farmer"
+        },
+        "farm": {
+            "id": 1,
+            "name": "Niggaland farm",
+            "address": "Turan street",
+            "geo_loc": "90.7783° N, 19.4179° W",
+            "size": "120 sotka",
+            "crop_types": "corn, wheat, soybeans",
+            "is_verified": false
+        }
+    }
+],
+
+  "categories": [
     {
       "id": 2,
       "name": "beard"
@@ -70,7 +106,7 @@
     {
       "id": 2,
       "category_id": 1,
-      "title": "Brown Cow",
+      "title": "Brown Coww",
       "width": 32,
       "height": 26,
       "price": 45,
